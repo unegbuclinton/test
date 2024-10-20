@@ -10,7 +10,12 @@ const ProductReview = () => {
       </h3>
       <div className='flex flex-wrap justify-center gap-14 lg:flex-nowrap'>
         {products.map(({ img, text, name }, index) => (
-          <ProductCard details={text} productImg={img} name={name} />
+          <ProductCard
+            key={index}
+            details={text}
+            productImg={img}
+            name={name}
+          />
         ))}
       </div>
     </div>

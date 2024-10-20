@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import HeroSection from '../components/hero-section/HeroSection'
 import Search from '../components/search/Search'
 import AccordionItem from '../components/accordion/Accordion'
@@ -10,7 +10,7 @@ const FAQ = () => {
   return (
     <div>
       <HeroSection className='!min-h-[400px] lg:!min-h-[596px] bg-[#FBF9F2]'>
-        <p className='text-base md:text-lg'>We're here to help you</p>
+        <p className='text-base md:text-lg'>We&apos;re here to help you</p>
         <h2 className='py-4 text-[36px] md:text-[50px] lg:text-[60px] font-bold'>
           How can we assist?
         </h2>

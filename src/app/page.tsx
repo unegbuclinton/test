@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div>
       <HeroSection heroImg={heroImg}>
-        <p className='text-base md:text-lg'>We're here to help you</p>
+        <p className='text-base md:text-lg'>We&apos;re here to help you</p>
         <h2 className='py-2 md:py-4 text-[36px] md:text-[50px] lg:text-[60px] font-bold'>
           Relax & Rest
         </h2>

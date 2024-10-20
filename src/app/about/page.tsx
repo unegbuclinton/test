@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
       <HeroSection className='!min-h-[596px] bg-[#FBF9F2]'>
-        <p className='text-lg'>We're here to help you</p>
+        <p className='text-lg'>We&apos;re here to help you</p>
         <h2 className='py-4 text-[60px] font-bold'>About Sleep stiq</h2>
       </HeroSection>
       This is not provided in the design
